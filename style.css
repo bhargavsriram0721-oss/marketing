@@ -680,7 +680,15 @@ text-align:center;
 }
 
 @media(max-width:768px){
+.navbar{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
 
+.menu-btn{
+    display:none;
+}
     nav{
         position:relative;
         padding:20px;
